@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <title>TS | Home Page</title>
+
+    <!--Page CSS files-->
+    <link rel = "stylesheet" href = "css/page-css/index.css">
+
+    <!--Common CSS files-->
+    <link rel = "stylesheet" href = "css/common-css/header.css">
+
+    <!--Fonts-->
+    <!--Bitcount Single-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
+    <!--Roboto Mono-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!--Background Video-->
+    <video autoplay muted loop playsinline id="background-video">
+      <source src="assets/backgrounds/space-bg.mp4" type="video/mp4">
+    </video>
+
+    <div class = "page-wrap"><!--Wrap around entire page-->
+      <!--Header-->
+      <div class = "header">
+          <a href="#cards" class = "menu">Menu</a>
+          <a href = "index.html" class = "home">Home</a>
+      </div>
+
+      <!--Name-->
+      <div class = "name-box">
+        <p class = "name">Thammanna Sampras</p>
+      </div>
+
+      <!--Description & Photo-->
+      <div class = "dnp-grid">
+        <div class = "photo-box"><!--Box for profile picture-->
+          <img class = "profile-picture" src = "assets/profile-images/thammanna.jpg">
+        </div>
+
+        <div class = "description-box"><!--Box for description-->
+          <div>
+            <p style = "margin-bottom: 10px">Hey!</p>
+            <p style = "margin-bottom: 10px">
+              I am a final-year Medical Electronics Engineering student working at the intersection 
+              of Machine Learning, AI, Robotics, Embedded Systems and Healthcare. I enjoy building 
+              intelligent systems through both software and hardware, and I am deeply curious about 
+              research and emerging technologies. 
+            </p>
+            <p>
+              Alongside engineering, I actively explore creative 
+              fields such as painting, drawing, music and writing. This portfolio brings together my 
+              technical projects, creative experiments and ongoing learning journey.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!--Cards-->
+      <div class = "div-text">
+        <p>Check out my projects!</p>
+      </div>
+      <div class = "scroll-wrap" id = "cards">
+        <div class = "scroll-item">Tech</div>
+        <div class = "scroll-item">Writing</div>
+        <div class = "scroll-item">Coming Soon</div>
+      </div>
+
+      <!--Contact-->
+      <div class = "connect-text">
+        <p>Let's Connect!</p>
+      </div>
+      <div class = "connect-items"><!--Icons-->
+        <a href = "https://www.linkedin.com/in/thammanna-s-09755529a/" target = "_blank">
+          <img class = "linkedin" src = "assets/profile-images/linkedin.png">
+        </a>
+        <a href = "https://github.com/thamcodes" target = "_blank">
+          <img class = "github" src = "assets/profile-images/github.png">
+        </a>
+        <a href = "mailto:thammannas.offical@gmail.com?subject=Contact from portfolio&body=Hi Thammanna," target = "_blank">
+          <img class = "mail" src = "assets/profile-images/mail.png">
+        </a>
+      </div>
+
+      <footer class="footer">
+        © 2026 Thammanna Sampras. All rights reserved.
+      </footer>
+    </div>
+    
+  </body>
+</html>
+
