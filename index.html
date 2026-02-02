@@ -18,6 +18,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap" rel="stylesheet">
   </head>
 
+  <!--For copying email-->
+  <script>
+  function copyEmail(imgEl) 
+  {
+    const email = "thammannas.official@gmail.com";
+    navigator.clipboard.writeText(email).then(() => 
+    {
+      const old = imgEl.parentElement.querySelector(".copy-msg");
+      if(old) old.remove();
+      const msg = document.createElement("span");
+      msg.className = "copy-msg";
+      msg.textContent = "Copied to Clipboard ✓";
+      imgEl.parentElement.style.position = "relative";
+      imgEl.parentElement.appendChild(msg);
+      setTimeout(() => 
+      {
+        msg.remove();
+      }, 1200);
+    });
+  }
+  </script>
+
   <body>
     <!--Background Video-->
     <video autoplay muted loop playsinline id="background-video">
@@ -81,9 +103,8 @@
         <a href = "https://github.com/thamcodes" target = "_blank">
           <img class = "github" src = "assets/profile-images/github.png">
         </a>
-        <a href = "mailto:thammannas.offical@gmail.com?subject=Contact from portfolio&body=Hi Thammanna," target = "_blank">
-          <img class = "mail" src = "assets/profile-images/mail.png">
-        </a>
+        <img class = "mail" src = "assets/profile-images/mail.png" onclick="copyEmail(this)">
+
       </div>
 
       <!--Copyright-->
@@ -93,5 +114,4 @@
     </div>
   </body>
 </html>
-
 
