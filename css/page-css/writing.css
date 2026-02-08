@@ -101,6 +101,7 @@ body{
   max-width: 350px;
   margin-right: 20px;
   margin-bottom: 1rem;
+  height: 475px;
 }
 .posts-title{
   font-family: "Georgia";
@@ -144,4 +145,5 @@ body{
   .posts-grid{
     grid-template-columns: 1fr;
   }
+
 }
