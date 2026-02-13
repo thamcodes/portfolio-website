@@ -117,7 +117,7 @@ body{
 }
 .project-preview{
   display: flex;
-  flex-direction: column;   /* stack title, info, skills vertically */
+  flex-direction: column;   
   gap: 0.5rem;
   color: white;
   padding: 1rem;
@@ -125,8 +125,8 @@ body{
   background-color: rgba(200, 200, 200, 0.2);
   max-width: 350px;
   height: 675px;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 1rem;
+  margin-bottom: 3rem;
 }
 .project-title{
   font-family: "Georgia";
@@ -203,11 +203,15 @@ body{
   .tech-stack-items::-webkit-scrollbar{
     height: 0px;
   }
-  .projects-grid{
+ .projects-grid{
     grid-template-columns: 1fr;
+    margin-left: 0;
+    justify-items: center;
   }
   .project-preview{
-    margin-left: 3.5rem;
+    width: 90vw;        
+    max-width: 340px; 
+    margin-right: 0;
+    height: auto;
   }
 }
-
