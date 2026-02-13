@@ -143,6 +143,9 @@ body{
     margin-left: 1rem;
     margin-right: 1rem;
   }
+  .posts-text{
+    text-align: center;
+  }
   .posts-grid{
     grid-template-columns: 1fr;
     margin-left: 0;
@@ -155,4 +158,5 @@ body{
     height: auto;
   }
 }
+
 
