@@ -6,6 +6,9 @@ This repository contains the source code for my personal portfolio website — a
 I showcase my projects, skills and the things I’m learning as I grow into a better engineer and problem-solver.
 
 ---
+>This portfolio is under active development. Contents will keep getting updated.
+
+---
 
 ### 🌐Live Website: 
 Visit my portfolio here: https://thamcodes.github.io/website-portfolio/
