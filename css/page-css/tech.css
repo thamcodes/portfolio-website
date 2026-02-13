@@ -112,7 +112,7 @@ body{
   grid-template-columns: 1fr 1fr ;
   align-items: center;
   margin-left: 5rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
   justify-content: center;
 }
 .project-preview{
@@ -215,3 +215,4 @@ body{
     height: auto;
   }
 }
+
