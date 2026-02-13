@@ -5,9 +5,12 @@ Having a website portfolio has been a dream of mine for a long time. It is final
 This repository contains the source code for my personal portfolio website — a space where 
 I showcase my projects, skills and the things I’m learning as I grow into a better engineer and problem-solver.
 
+---
+
 ### 🌐Live Website: 
 Visit my portfolio here: https://thamcodes.github.io/website-portfolio/
 
+---
 
 ### 📋Contents:
 1. A short personal introduction
@@ -18,6 +21,7 @@ Visit my portfolio here: https://thamcodes.github.io/website-portfolio/
 
 As I upskill, I will keep adding to the pages and also make more pages. 
 
+---
 
 ### 👩‍💻Tech Stack:
 1. HTML5
@@ -26,6 +30,7 @@ As I upskill, I will keep adding to the pages and also make more pages.
 4. Custom styling and animations
 5. Hosted using GitHub Pages
    
+---
 
 ### 🖇️Repository Structure
 ```text
@@ -52,6 +57,7 @@ portfolio/
 
 (No frameworks – built from scratch to strengthen fundamentals.)
 
+---
 
 ### 🌸 A small note on usage
 This is my personal portfolio project.
